@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome v5.6.3 CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+    <!-- Hover CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand h2 text-uppercase" href="index.html">Bad Rabbit</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fs-3 fas fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"><i class="fs-3 fas fa-book-open"></i> Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fs-3 fas fa-phone"></i> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="booking-form" id="booking-form">
+      <form class="form-wrapper">
+        <h3 class="h3 fw-bold text-uppercase">Book a Table</h3>
+        <div class="row d-flex">
+          <div class="col-md-12 col-lg-6 mb-1"><input type="text" class="form-control" id="name" placeholder="Name" required /></div>
+          <div class="col-md-12 col-lg-6 mb-1">
+            <input type="text" class="form-control" id="phone" placeholder="Phone" required />
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-12 col-lg-6 mb-1"><input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy" required /></div>
+          <div class="col-md-12 col-lg-6 mb-1"><input type="time" class="form-control" id="time" placeholder="00:00 AM" required /></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-1">
+            <select class="form-select" aria-label="Default select example" required>
+              <option selected>Number of guests</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-1">
+            <input type="email" class="form-control" id="email" placeholder="Email" required />
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <button type="submit" class="btn btn-primary text-uppercase fw-normal">Book Now</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer class="navbar fixed-bottom justify-content-center navbar-dark bg-dark">
+      <ul class="nav justify-content-center">
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#"><i class="fs-1 fab fa-facebook-square"></i></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#"><i class="fs-1 fab fa-twitter-square"></i></a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#"><i class="fs-1 fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

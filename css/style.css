@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --dark-color: #2d3436;
+  --light-color: #dfe6e9;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url('/images/001.jfif') center center/cover;
+}
+
+/* NAV */
+header {
+  font-family: 'Oswald', sans-serif;
+  height: 10vh;
+  padding: 50px;
+}
+
+/*MAIN SECTION*/
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  height: 80vh;
+  width: 60%;
+  margin: auto;
+}
+
+#bookings a,
+#bookings p {
+  color: white;
+  opacity: 0.9;
+  font-size: 1.8rem;
+}
+
+#bookings i,
+#bookings h3 {
+  font-size: 3rem;
+}
+
+/*BOOKINGS*/
+#booking-form input,
+#booking-form select,
+#booking-form button {
+  padding: 15px;
+}
+
+.form-wrapper {
+  position: relative;
+  margin-bottom: 40px;
+  height: 90%;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.form-wrapper::after {
+  background-color: black;
+  content: '';
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.btn-primary {
+  margin: 10px auto;
+  width: 50%;
+  background-color: #00b894;
+  border: none;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #00cec9;
+}
+
+/*MENU*/
+.menu {
+  width: 100%;
+}
+
+.menu-wrapper {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.dark-box {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.light-box {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+/* FOOTER */
+footer {
+  height: 10vh;
+}
+
+footer a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 80%;
+  }
+  #navbarNav {
+    text-align: center;
+  }
+  #navbarNav li {
+    padding: 5px;
+  }
+  #navbarNav li i {
+    display: none;
+  }
+
+  #bookings p {
+    font-size: 1.2rem;
+  }
+
+  #bookings i,
+  #bookings h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 100%;
+    height: 80%;
+  }
+
+  #bookings p {
+    font-size: 0.8rem;
+  }
+
+  #bookings i,
+  #bookings h3 {
+    font-size: 1.5rem;
+  }
+
+  /*BOOKINGS*/
+  #booking-form input,
+  #booking-form select,
+  #booking-form button {
+    padding: 7px;
+  }
+}
