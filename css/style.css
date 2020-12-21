@@ -5,11 +5,18 @@
   --light-color: #dfe6e9;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background: url('/images/001.jfif') center center/cover;
+  background: url('/images/001.jfif') no-repeat center/cover;
+  background-attachment: fixed;
 }
 
 /* NAV */
@@ -17,6 +24,11 @@ header {
   font-family: 'Oswald', sans-serif;
   height: 10vh;
   padding: 50px;
+}
+
+#navbarNav ul li a.nav-link {
+  padding-left: 30px;
+  color: white;
 }
 
 /*MAIN SECTION*/
@@ -55,8 +67,8 @@ section {
   position: relative;
   margin-bottom: 40px;
   height: 90%;
-  width: 100%;
-  padding: 25px;
+  width: 80%;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,9 +76,10 @@ section {
 }
 
 .form-wrapper::after {
-  background-color: black;
+  border-radius: 25px;
+  background-color: #2d3436;
   content: '';
-  opacity: 0.8;
+  opacity: 0.6;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -109,6 +122,31 @@ section {
   color: var(--dark-color);
 }
 
+/*CONTACT*/
+.contact-us-container {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row-one {
+  width: 90%;
+  margin: auto;
+}
+
+.message-us,
+.find-us {
+  height: 500px;
+}
+
+.find-us .map {
+  height: 350px;
+  width: 350px;
+  background: url('/images/find-us.JPG') no-repeat center center/cover;
+  margin: auto;
+}
+
 /* FOOTER */
 footer {
   height: 10vh;
@@ -131,14 +169,22 @@ footer a {
   #navbarNav li i {
     display: none;
   }
-
   #bookings p {
     font-size: 1.2rem;
   }
-
   #bookings i,
   #bookings h3 {
     font-size: 2.5rem;
+  }
+
+  .find-us .map {
+    margin-top: 30px;
+    height: 300px;
+    width: 250px;
+  }
+  .contact-us-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 }
 
@@ -162,5 +208,31 @@ footer a {
   #booking-form select,
   #booking-form button {
     padding: 7px;
+  }
+
+  /*CONTACT*/
+  .contact-us-container {
+    margin-top: 15px;
+  }
+  .contact-us-container h3 {
+    color: white;
+  }
+  .row-one {
+    width: 100%;
+  }
+  .find-us {
+    height: 300px;
+  }
+  .find-us .map {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  .call-us {
+    margin-bottom: 200px;
+  }
+  .spacer {
+    height: 30px;
+    clear: both;
   }
 }
