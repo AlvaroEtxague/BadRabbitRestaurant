@@ -26,6 +26,11 @@ header {
   padding: 50px;
 }
 
+#navbarNav ul li a.nav-link {
+  padding-left: 30px;
+  color: white;
+}
+
 /*MAIN SECTION*/
 section {
   display: flex;
@@ -171,6 +176,7 @@ footer a {
   #bookings h3 {
     font-size: 2.5rem;
   }
+
   .find-us .map {
     margin-top: 30px;
     height: 300px;
@@ -224,5 +230,9 @@ footer a {
   }
   .call-us {
     margin-bottom: 200px;
+  }
+  .spacer {
+    height: 30px;
+    clear: both;
   }
 }
