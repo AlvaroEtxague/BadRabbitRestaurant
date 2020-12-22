@@ -202,7 +202,7 @@ section {
 .find-us .map {
   height: 350px;
   width: 350px;
-  background: url('/images/find-us.JPG') no-repeat center center/cover;
+  background: url('../images/find-us.JPG') no-repeat center center/cover;
   margin: auto;
 }
 
