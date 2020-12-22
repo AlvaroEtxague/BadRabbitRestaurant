@@ -21,12 +21,12 @@
   * Features Pending Implementation
  
  3. Technologies Used
-  * HTML5
-  * CSS3
-  * Bootstrap 5
-  * Font Awesome v5.6.3
-  * JavaScript
-  * Jquery
+    - HTML5
+    - CSS3
+    - Bootstrap 5
+    - Font Awesome v5.6.3
+    - JavaScript
+    - Jquery
  
  4. Testing
  
