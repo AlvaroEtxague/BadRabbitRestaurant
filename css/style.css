@@ -31,6 +31,10 @@ header {
   color: white;
 }
 
+#navbarNav ul li a.nav-link:hover {
+  color: #00b894;
+}
+
 /*MAIN SECTION*/
 section {
   display: flex;
@@ -61,13 +65,14 @@ section {
 #booking-form select,
 #booking-form button {
   padding: 15px;
+  border: none;
 }
 
 .form-wrapper {
   position: relative;
   margin-bottom: 40px;
-  height: 90%;
-  width: 80%;
+  height: 70%;
+  min-width: 70%;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -156,6 +161,14 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  color: #00b894;
+}
+
+footer i {
+  font-size: 35px;
+}
+
 @media (max-width: 768px) {
   section {
     width: 80%;
@@ -234,5 +247,55 @@ footer a {
   .spacer {
     height: 30px;
     clear: both;
+  }
+}
+
+@media (max-height: 800px) {
+  /*BOOKINGS*/
+  .booking-form {
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .form-wrapper {
+    height: 85%;
+    width: 100%;
+  }
+
+  .form-wrapper::after {
+    border-radius: 0px;
+  }
+
+  /*CONTACT*/
+  .spacer {
+    height: 20px;
+    clear: both;
+  }
+
+  /*FOOTER*/
+  footer {
+    height: 50px;
+  }
+
+  footer i {
+    font-size: 20px;
+  }
+}
+
+@media (max-height: 450px) {
+  /*INDEX MAIN SECTION*/
+  section {
+    margin-top: 0px;
+    height: 50vh;
+  }
+
+  #bookings p {
+    display: none;
+  }
+
+  #bookings i,
+  #bookings h3 {
+    font-size: 1.5rem;
   }
 }
