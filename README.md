@@ -11,11 +11,12 @@
   
  2. Features
   * Existing Features
-    - User can navigate to the Home Page 
-    - User can navigate to the Menu Page
-    - User can navigate to the Contact Page
-    - Clicking Book a Table or the "fork and knife" icon will bring the user to the Bookings Page
-    - In the Bookings Page the user must complete all fields in order to submit a booking successfully
+    - User can navigate to the Home Page.
+    - User can navigate to the Menu Page.
+    - User can navigate to the Contact Page.
+    - Clicking the Bad Rabbit Brand/Icon will redirect the user to the Home Page.
+    - Clicking Book a Table or the "fork and knife" icon will bring the user to the Bookings Page.
+    - In the Bookings Page the user must complete all fields in order to submit a booking successfully.
     - If any field is left blank or doesn't meet the requirements (ie: expected number of characters, correct email format) then the user will be presented with a validation   message when clicking submit.
     - After completing all fields as expected and clicking the Book Now button the "Bookings" form will be hidden to the users and a "Success" message will be displayed.
   * Features Pending Implementation
