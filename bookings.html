@@ -52,27 +52,35 @@
     </header>
 
     <section class="booking-form" id="booking-form">
-      <form class="form-wrapper">
+      <form class="form-wrapper" id="form">
         <h3 class="h3 fw-bold text-uppercase">Book a Table</h3>
-        <div class="row g-0 d-flex">
-          <div class="col-md-12 mb-1">
-            <input type="text" class="form-control" id="name" placeholder="Name" required />
+        <div class="row g-0 d-flex my-outline">
+          <div class="col-md-12 mb-1 my-form-group">
+            <input type="text" class="form-control" id="name" placeholder="Name" />
+            <small>Error message</small>
           </div>
         </div>
         <div class="row g-0 d-flex">
-          <div class="col-md-12 mb-1">
-            <input type="text" class="form-control" id="phone" placeholder="Phone" required />
+          <div class="col-md-12 mb-1 my-form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Phone" />
+            <small>Error message</small>
           </div>
         </div>
         <div class="row g-0 d-flex">
-          <div class="col-md-12 mb-1"><input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy" required /></div>
+          <div class="col-md-12 mb-1 my-form-group">
+            <input type="date" class="form-control" id="date" placeholder="dd/mm/yyyy" />
+            <small>Error message</small>
+          </div>
         </div>
         <div class="row g-0 d-flex">
-          <div class="col-md-12 mb-1"><input type="time" class="form-control" id="time" placeholder="00:00 AM" required /></div>
+          <div class="col-md-12 mb-1 my-form-group">
+            <input type="time" class="form-control" id="time" placeholder="00:00 AM" />
+            <small>Error message</small>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-12 mb-1">
-            <select class="form-select" aria-label="Default select example" required>
+          <div class="col-md-12 mb-1 my-form-group">
+            <select class="form-select form-control" aria-label="Default select example">
               <option selected>Number of guests</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -85,20 +93,26 @@
               <option value="9">9</option>
               <option value="10">10</option>
             </select>
+            <small>Error message</small>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 mb-1">
-            <input type="email" class="form-control" id="email" placeholder="Email" required />
+          <div class="col-md-12 mb-1 my-form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email" />
+            <small>Error message</small>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <button type="submit" class="btn btn-primary text-uppercase fw-normal">Book Now</button>
+            <button type="submit" class="btn btn-primary text-uppercase fw-normal" id="submit">Book Now</button>
           </div>
         </div>
       </form>
     </section>
+
+    <div class="booking-complete" id="booking-complete-success">
+      <h3 class="booking-message hide">Thanks for your booking!</h3>
+    </div>
 
     <footer class="navbar fixed-bottom justify-content-center navbar-dark bg-dark">
       <ul class="nav justify-content-center">
@@ -120,6 +134,7 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
