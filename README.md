@@ -1,5 +1,7 @@
 # BadRabbitRestaurant
 
+https://zippote.github.io/BadRabbitRestaurant/
+
 1. UX
 
 - Project Goals
