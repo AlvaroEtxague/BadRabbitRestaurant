@@ -61,6 +61,10 @@ section {
   font-size: 3rem;
 }
 
+#bookings a:hover {
+  color: #00b894;
+}
+
 /*BOOKINGS*/
 #booking-form input,
 #booking-form select {
@@ -195,8 +199,9 @@ section {
 }
 
 .message-us,
-.find-us {
-  height: 500px;
+.find-us,
+.hours {
+  height: 480px;
 }
 
 .find-us .map {
@@ -231,8 +236,8 @@ footer i {
 @media (max-width: 769px) {
   section {
     width: 90%;
-    margin-top: 0px;
-    height: 10vh;
+    height: 40%;
+    margin-top: 150px;
   }
   #navbarNav {
     text-align: center;
@@ -273,7 +278,7 @@ footer i {
 @media (max-width: 500px) {
   section {
     width: 100%;
-    height: 80%;
+    margin-top: 50px;
   }
 
   #bookings p {
