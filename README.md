@@ -1,6 +1,6 @@
 # BadRabbitRestaurant
 
-https://zippote.github.io/BadRabbitRestaurant/
+
 
 1. UX
 
@@ -54,6 +54,7 @@ In other words, we are giving users an easy way to make a reservation, a clear p
 
 - Existing Features
   - User can navigate to the Home Page.
+  - User can navigate to the Bookings Page.
   - User can navigate to the Menu Page.
   - User can navigate to the Contact Page.
   - Clicking the Bad Rabbit Brand/Icon will redirect the user to the Home Page.
@@ -62,6 +63,8 @@ In other words, we are giving users an easy way to make a reservation, a clear p
   - If any field is left blank or doesn't meet the requirements (ie: expected number of characters, correct email format) then the user will be presented with a validation message when clicking submit.
   - After completing all fields as expected and clicking the Book Now button the "Bookings" form will be hidden to the users and a "Success" message will be displayed.
 - Features Pending Implementation
+ - Contact Us form functionality
+ - Google Maps API integration for Contact Us page
 
 3.  Technologies Used
 
@@ -73,8 +76,10 @@ In other words, we are giving users an easy way to make a reservation, a clear p
     - Jquery
 
 4.  Testing
+  - All existing features have been tested on the following: Android, iPhone, iPad, iPad Prod and PC.
 
 5.  Deployment
+- Github pages: https://zippote.github.io/BadRabbitRestaurant/
 
 - How to run this project locally
 
@@ -82,5 +87,6 @@ In other words, we are giving users an easy way to make a reservation, a clear p
 
 - Content
 - Media
+  - Images were taken from Unplash.com and are royalty free images.
 - Code
 - Acknowledgement
