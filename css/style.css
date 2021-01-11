@@ -45,10 +45,11 @@ section {
   align-items: center;
   text-align: center;
   height: 80vh;
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 
+/*BOOKINGS*/
 #bookings a,
 #bookings p {
   color: white;
@@ -65,7 +66,6 @@ section {
   color: #00b894;
 }
 
-/*BOOKINGS*/
 #booking-form input,
 #booking-form select {
   padding: 15px;
@@ -212,7 +212,7 @@ section {
 }
 
 .spacer {
-  height: 40px;
+  height: 100px;
   clear: both;
 }
 
@@ -237,24 +237,34 @@ footer i {
   section {
     width: 90%;
     height: 40%;
-    margin-top: 150px;
+    /* margin-top: 150px; */
   }
+
   #navbarNav {
     text-align: center;
   }
+
   #navbarNav li {
     padding: 5px;
   }
+
   #navbarNav li i {
     display: none;
   }
+
   /*BOOKINGS*/
   .booking-form {
-    height: 100%;
+    height: 80%;
   }
+
+  #bookings {
+    margin-top: 400px;
+  }
+
   #bookings p {
     font-size: 1.2rem;
   }
+
   #bookings i,
   #bookings h3 {
     font-size: 2.5rem;
@@ -269,15 +279,23 @@ footer i {
     height: 300px;
     width: 250px;
   }
+
   .contact-us-container {
     margin-top: 30px;
     margin-bottom: 60px;
+  }
+
+  .spacer {
+    height: 40px;
   }
 }
 
 @media (max-width: 500px) {
   section {
     width: 100%;
+  }
+
+  #bookings {
     margin-top: 50px;
   }
 
@@ -332,7 +350,7 @@ footer i {
 @media (max-height: 800px) {
   /*BOOKINGS*/
   .booking-form {
-    height: 120%;
+    height: 110%;
     margin-bottom: 30px;
   }
 
@@ -371,6 +389,10 @@ footer i {
   /*BOOKINGS*/
   .booking-form {
     height: 800px;
+  }
+
+  #bookings {
+    margin-top: 50px;
   }
 
   #bookings p {
