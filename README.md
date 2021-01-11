@@ -14,16 +14,6 @@
 - We are a unique place for meat lovers with a diverse menu in a great social location.
 - We would like to improve our online presence by having a website that allows simple navigation and where users can make a reservation.
 
-### Tech:
-
-- I wanted to present a minimalist approach in this page while also giving users the most relevant information about the restaurant.
-
-- The website will be fully responsive and should follow a "mobile first" approach.
-
-- Users will be presented with a Home, Menu and Contact Us pages as well as a Bookings page where they can complete a simple form and make a reservation through the website.
-
-- Social media links will be available in the footer.
-
 ### Why would a user want this:
 
 - The client asked to keep simplicity and focus on giving users valuable content only.
@@ -37,6 +27,31 @@
 - We are offering users a full online menu where they can see our signature dishes before coming to the restaurant.
 
 - In other words, we are giving users an easy way to make a reservation, a clear picture of our menu and 3 main ways of communication plus our social media information.
+
+### User Stories:
+
+- As a restaurant user I want to:
+  - be able to navigate through the website content with fluidity
+  - be able to view the menu
+  - be able to book a table online
+  - be able to contact the restaurant
+
+### Tech:
+
+- I wanted to present a minimalist approach in this page while also giving users the most relevant information about the restaurant.
+
+- The website will be fully responsive and should follow a "mobile first" approach.
+
+- Users will be presented with a Home, Menu and Contact Us pages as well as a Bookings page where they can complete a simple form and make a reservation through the website.
+
+- Social media links will be available in the footer.
+
+### Wireframes:
+
+- [Home]
+- [Bookings]
+- [Menu]
+- [Contact]
 
 ## 2. Features
 
