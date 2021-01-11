@@ -1,8 +1,6 @@
 # BadRabbitRestaurant
 
-1. UX
-
-## Strategy:
+## 1. UX
 
 ## About:
 
@@ -40,7 +38,7 @@
 
 - In other words, we are giving users an easy way to make a reservation, a clear picture of our menu and 3 main ways of communication plus our social media information.
 
-2.  Features
+## 2. Features
 
 - Existing Features
   - User can navigate to the Home Page.
@@ -56,7 +54,7 @@
 - Contact Us form functionality
 - Google Maps API integration for Contact Us page
 
-3.  Technologies Used
+## 3. Technologies Used
 
     - HTML5
     - CSS3
@@ -65,7 +63,7 @@
     - JavaScript
     - Jquery
 
-4.  Testing
+## 4. Testing
 
 - All existing features have been tested on the following: Android, iPhone, iPad, iPad Prod and PC.
 - The following Test Plan was executed and all scenarios passed:
@@ -80,11 +78,11 @@
   - Verify that after completing all fields as expected and clicking the Book Now button the "Bookings" form will be hidden to the users and a "Success" message will be displayed.
   - Verify that clicking the social media links in the footer opens the link in a new tab.
 
-5.  Deployment
+## 5. Deployment
 
 - Github pages: https://zippote.github.io/BadRabbitRestaurant/
 
-6.  Credits
+## 6. Credits
 
 - Media
   - Images were taken from Unplash.com and are royalty free images.
