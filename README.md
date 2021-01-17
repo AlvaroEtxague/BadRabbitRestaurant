@@ -49,9 +49,9 @@
 ### Wireframes:
 
 - [Home](/images/Wireframes/Home.JPG)
-- [Bookings]
-- [Menu]
-- [Contact]
+- [Bookings](/images/Wireframes/Bookings.JPG)
+- [Menu](/images/Wireframes/Menu.JPG)
+- [Contact](/images/Wireframes/ContactUs.JPG)
 
 ## 2. Features
 
