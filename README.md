@@ -48,7 +48,7 @@
 
 ### Wireframes:
 
-- [Home]
+- [Home](/images/Wireframes/Home.JPG)
 - [Bookings]
 - [Menu]
 - [Contact]
