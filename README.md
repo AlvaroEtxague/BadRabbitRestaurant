@@ -48,10 +48,10 @@
 
 ### Wireframes:
 
-- [Home]
-- [Bookings]
-- [Menu]
-- [Contact]
+- [Home](/images/Wireframes/Home.JPG)
+- [Bookings](/images/Wireframes/Bookings.JPG)
+- [Menu](/images/Wireframes/Menu.JPG)
+- [Contact](/images/Wireframes/ContactUs.JPG)
 
 ## 2. Features
 
