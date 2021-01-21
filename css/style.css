@@ -108,7 +108,7 @@ section {
 }
 
 .btn-primary {
-  margin: 10px auto;
+  margin: auto;
   width: 50%;
   background-color: #00b894;
   border: none;
@@ -142,7 +142,7 @@ section {
 .my-form-group.error small {
   color: var(--error-color);
   visibility: visible;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .booking-form.hide {
@@ -202,6 +202,64 @@ section {
 .find-us,
 .hours {
   height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message-form.hide {
+  display: none;
+}
+
+.leave-message.hide {
+  display: none;
+}
+
+.message-thanks.hide {
+  display: none;
+}
+
+.message-thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error {
+  display: block;
+  color: #e74c3c;
+}
+
+.error.hide {
+  display: none;
+}
+
+form > input,
+form > textarea,
+form > button {
+  margin: 5px 0;
+}
+
+.message-btn {
+  padding: 15px;
+  border: none;
+}
+
+.message-btn:focus {
+  box-shadow: none;
+  background-color: #00b894;
 }
 
 .find-us .map {
@@ -271,7 +329,7 @@ footer i {
   }
 
   .my-form-group.error small {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .find-us .map {
@@ -326,6 +384,10 @@ footer i {
   }
   .contact-us-container h3 {
     color: white;
+  }
+
+  .message-thanks h3 {
+    color: #2d3436;
   }
   .row-one {
     width: 100%;

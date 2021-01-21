@@ -105,7 +105,7 @@ form.addEventListener('submit', function (e) {
   checkEmail(email);
 });
 
-//HIDE FORM AFTER VOTE AND SHOW MESSAGE
+//HIDE FORM AND SHOW MESSAGE
 form.addEventListener('submit', function (e) {
   e.preventDefault();
   let validationsFlag = checkAllValidations();
